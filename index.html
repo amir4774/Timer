@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/73d99e9958.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="content">
+            <p>Dark Mode</p>
+            <button id="change-mode"><i class="fas fa-sun"></i></button>
+        </div>
+    </nav>
+    <!-- Container -->
+    <div class="container">
+        <div class="clock">
+            <div class="inner">
+                <span id="minutes">00 :&nbsp;</span>
+                <span id="second">00 .&nbsp;</span>
+                <span id="mili-second">00</span>
+            </div>
+            <div class="buttons">
+                <button class="btn" id="lap">Lap</button>
+                <button class="btn" id="start">Start</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Laps -->
+    <section class="table">
+        <div class="title">
+            <div class="lap-number">Lap</div>
+            <div class="lap-items">Lap times</div>
+            <div class="overall-time">Overall-time</div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
