@@ -167,3 +167,11 @@ body {
         width: 30rem;
     }
 }
+
+@media (max-width: 500px) {
+    .table {
+        position: absolute;
+        top: 18rem;
+        width: 23rem;
+    }
+}
